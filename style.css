@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game-preview img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game-info {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #e63900;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #1e1e1e;
+}
